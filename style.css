@@ -1,0 +1,160 @@
+/*
+Filename:    style.css
+Description: External CSS Stylesheet for n00b_Skoolbus Official Site
+Author:      Steve Ross-Byers
+*/
+
+
+/* compatibility*/
+
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+* {
+    background-color: #CCCCCC;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+:link {
+    color: #9900FF;
+}
+
+:visited {
+    color: #006600;
+}
+
+:active {
+    color: #999999;
+}
+
+#page_heading {
+    background-color: #000000;
+    color: #CCCCCC;
+    padding: .5em;
+}
+
+.heading~p {
+    line-height: 1.25em;
+    text-indent: 1.5em;
+    margin: 1em auto 0;
+    width: 75%;
+    min-width: 250px;
+    max-width: 700px;
+}
+
+hr {
+    border-color: #9900FF;
+}
+
+header,
+footer {
+    text-align: center;
+    margin: 0 auto 0;
+}
+
+h1~p {
+    font-size: 115%;
+    font-style: italic;
+    margin: auto;
+    min-width: 300px;
+}
+
+#navigation {
+    text-align: center;
+    font-weight: bolder;
+    min-width: 550px;
+}
+
+#navigation li {
+    display: inline;
+    padding-right: 2em;
+}
+
+.heading {
+    padding: .5em;
+    /* had no reason to use important, so I made a reason */
+    background-color: #333333 !important;
+    background-color: #00FF00;
+    border-style: solid;
+    border-color: #00FF00;
+    text-shadow: -2px 0px 8px #FF00FF;
+    margin: 1em auto 1em;
+    text-align: center;
+    text-decoration: underline;
+    width: 50%;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+figure {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#news ul {
+    margin: 0 auto 0;
+    width: 600px;
+    max-height: 150px;
+    overflow: scroll;
+}
+
+li>time {
+    font-weight: bolder;
+    text-shadow: -2px 0px 8px #00FF00;
+    letter-spacing: .75px;
+    line-height: 1.75em;
+}
+
+img[title="Nintendo Entertainment System"] {
+    vertical-align: middle;
+    height: 15em;
+    width: 30em;
+}
+
+#team_list {
+    text-align: center;
+    font-weight: bolder;
+    min-width: 825px;
+    height: 5em;
+}
+
+#team_list li {
+    margin-right: .5em;
+    display: inline;
+    padding: .5em;
+    font-size: 150%;
+    font-weight: bolder;
+    border: 3px solid #000000;
+    box-shadow: 10px 10px #000000;
+    background-color: #999999;
+}
+
+#team_list a {
+    background-color: #999999;
+}
+
+#contact_list {
+    margin: 1em auto 1em;
+    width: 150px;
+    line-height: 2em;
+}
+
+img[title="Major League Gaming"] {
+    vertical-align: middle;
+    height: 3em;
+    width: 7em;
+}
+
+#copyright {
+    color: #00FF00;
+    padding: .25em;
+    background-color: #000000;
+}
